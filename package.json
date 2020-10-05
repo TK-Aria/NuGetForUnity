@@ -1,5 +1,5 @@
 {
-	"name": "com.aria.unity.nuget",
+	"name": "@tk-aria/nuget-unity",
 	"version": "1.0.0",
 	"unity": "2019.1",
 	"displayName": "NuGetForUnity",
@@ -11,5 +11,12 @@
 	"author": {
 		"name": "tkaria",
 		"url": "https://tk3118.hatenablog.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TK-Aria/nuget-unity.git"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
 	}
 }
